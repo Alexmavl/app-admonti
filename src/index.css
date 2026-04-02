@@ -972,7 +972,8 @@ body {
   }
 
   .navbar-subtitle {
-    display: none;
+    font-size: 9px;
+    letter-spacing: 0.5px;
   }
 
   .navbar-badge {
