@@ -2,7 +2,7 @@
 
 Aplicación web que consume el **servicio web SOAP** del Banco de Guatemala (Banguat) para consultar tipos de cambio de moneda extranjera en tiempo real.
 
-🌐 **Ver proyecto desplegado:** [https://app-admonti.vercel.app/](https://app-admonti.vercel.app/)
+🌐 **Ver tarea desplegada:** [https://app-admonti.vercel.app/](https://app-admonti.vercel.app/)
 
 ---
 
@@ -220,12 +220,7 @@ Los navegadores bloquean peticiones directas a dominios externos por seguridad (
 
 ## 🌐 Despliegue en Vercel
 
-El proyecto está desplegado automáticamente en Vercel. Cada push a la rama `main` en GitHub genera un nuevo despliegue.
+La tarea está desplegado automáticamente en Vercel. Cada push a la rama `main` en GitHub genera un nuevo despliegue.
 
 **URL de producción:** [https://app-admonti.vercel.app/](https://app-admonti.vercel.app/)
 
----
-
-## 📝 Licencia
-
-Proyecto académico desarrollado para la Universidad Mariano Gálvez de Guatemala — 2026.
