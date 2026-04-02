@@ -1,9 +1,4 @@
-const BANGUAT_URL = 'https://www.banguat.gob.gt/variables/ws/tipocambio.asmx';
-const isDev = import.meta.env.DEV;
-// En desarrollo usamos el proxy de Vite, en producción usamos un proxy CORS
-const SOAP_URL = isDev
-  ? '/api/banguat/tipocambio.asmx'
-  : `https://corsproxy.io/?url=${encodeURIComponent(BANGUAT_URL)}`;
+const SOAP_URL = '/api/banguat/tipocambio.asmx';
 const NAMESPACE = 'http://www.banguat.gob.gt/variables/ws/';
 
 function buildSoapEnvelope(method: string, params: Record<string, string | number> = {}): string {

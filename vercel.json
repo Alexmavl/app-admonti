@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/banguat/:path*",
+      "destination": "https://www.banguat.gob.gt/variables/ws/:path*"
+    }
+  ]
+}
